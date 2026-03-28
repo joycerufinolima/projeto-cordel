@@ -1,0 +1,110 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bitcount+Prop+Double+Ink:wght@100..900&family=Kumar+One+Outline&family=LINE+Seed+JP&family=Passion+One:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bitcount+Prop+Double+Ink:wght@100..900&family=Kumar+One+Outline&family=LINE+Seed+JP&family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    min-height: 100vh;
+}
+
+header{
+    text-align: center;
+    height: 242px;
+    background-color: black;
+    color: white;
+
+}
+
+header h1{
+    padding-top: 50px;
+    font-variant: small-caps;
+    font-family: "Passion One", sans-serif;
+    font-weight:900;
+    font-size: 10vw;
+}
+
+header p{
+    padding-bottom: 50px;
+}
+
+header a{
+    color: white;
+    font-family: "Passion One", sans-serif;
+    font-weight: bolder;
+    text-decoration: none;
+    
+}
+
+header a:hover{
+    text-decoration:underline;
+}
+
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    font-size: 5vh
+}
+
+section p{
+    padding-bottom: 2em;
+}
+
+
+.estrofe{
+    font-family: 'Sriracha', cursive;
+    padding-left: 30px;
+
+    
+
+}
+
+#estrofe2{
+    background-image: url('../imagens/background001.jpg');
+    background-position:right center;
+    text-shadow: 1px 1px 2px black;
+    box-shadow: inset 6px 6px 13px 0 black;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family:'Sriracha', cursive;
+
+}
+
+#estrofe2 p{
+    background-color: rgba(0, 0, 0, 0.486);
+    display: inline-block;
+    color: white;
+    padding: 10px;
+    
+}
+
+#estrofe5{
+    background-image: url('../imagens/background002.jpg');
+    background-size: cover;
+    height: 500px;
+    background-position-x:100% ;
+    background-position-y:50% ;
+    background-attachment: fixed;
+    box-shadow: inset 6px 6px 13px 0 black;
+    font-family: 'Sriracha', cursive;
+}
+#estrofe5 p{
+    background-color: rgba(0, 0, 0, 0.486);
+    display: inline-block;
+    color: white;
+    padding: 10px;
+}
+
+span{
+    display: block;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
